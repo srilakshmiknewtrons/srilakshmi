@@ -7,8 +7,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="brickfun.cpp" />
+    <ClCompile Include="tiles.cpp" />
+    <ClCompile Include="coloredbricks.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SWRast.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="brick1.bmp" />
+    <Image Include="brick2.bmp" />
+    <Image Include="brick3.bmp" />
   </ItemGroup>
 </Project>
