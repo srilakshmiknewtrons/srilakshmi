@@ -6,8 +6,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SWRast.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
+    <ClCompile Include="brickfun.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SWRast.h" />
   </ItemGroup>
 </Project>
