@@ -6,16 +6,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="brickfun.cpp" />
-    <ClCompile Include="tiles.cpp" />
-    <ClCompile Include="coloredbricks.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="SWRast.h" />
+    <ClInclude Include="utility.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="brick1.bmp" />
     <Image Include="brick2.bmp" />
     <Image Include="brick3.bmp" />
+    <Image Include="smiley.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utility.cpp" />
+    <ClCompile Include="circle.cpp" />
   </ItemGroup>
 </Project>

@@ -134,17 +134,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="brickfun.cpp" />
-    <ClCompile Include="coloredbricks.cpp" />
-    <ClCompile Include="tiles.cpp" />
+    <ClInclude Include="utility.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SWRast.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="brick1.bmp" />
+    <Image Include="brick1.bmp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </Image>
     <Image Include="brick2.bmp" />
     <Image Include="brick3.bmp" />
+    <Image Include="smiley.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="circle.cpp" />
+    <ClCompile Include="utility.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
